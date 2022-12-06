@@ -1,2 +1,3 @@
 2022/12/01 23:24:46 [alert] 5076#10576: OpenEvent("ngx_master_1560") failed (2: The system cannot find the file specified)
 2022/12/03 09:49:29 [alert] 10992#9528: OpenEvent("ngx_master_2888") failed (2: The system cannot find the file specified)
+2022/12/06 07:53:53 [error] 10500#7696: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", upstream: "fastcgi://127.0.0.1:10002", host: "sagethemes.vm"

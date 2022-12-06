@@ -61,6 +61,7 @@
   ul,
   blockquote,
   figure{
+    @apply font-light text-lg leading-6;
     margin: 0 0 15px;
   }
 

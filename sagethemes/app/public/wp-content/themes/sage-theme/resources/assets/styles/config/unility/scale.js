@@ -8,7 +8,8 @@ const Scales = {
   105: '1.05',
   110: '1.1',
   125: '1.25',
-  150: '1.5'
+  150: '1.5',
+  'auto': 'auto'
 }
 module.exports = {
   Scales

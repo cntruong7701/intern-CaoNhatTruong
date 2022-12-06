@@ -5,7 +5,7 @@
 
 @tailwind utilities;
 
-
+@import '../styles/base/_base.scss';
 @import 'base/*.scss';
 @import 'core/lib/font-iconmoon';
 // @import "slick-carousel/slick/slick.scss";
