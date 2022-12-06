@@ -33,6 +33,15 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_638edf456f664": {
+                    "key": "layout_638edf456f664",
+                    "name": "module_slider",
+                    "label": "Module slider",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -58,5 +67,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669911491
+    "modified": 1670307653
 }
