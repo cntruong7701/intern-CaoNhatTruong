@@ -8,6 +8,7 @@
 $slick-font-path: "~slick-carousel/slick/fonts/";
 $slick-loader-path: "~slick-carousel/slick/";
 
+@import "core/lib/font-iconmoon";
 @import '~slick-carousel/slick/slick';
 @import '../styles/base/_base.scss';
 @import 'base/*.scss';
