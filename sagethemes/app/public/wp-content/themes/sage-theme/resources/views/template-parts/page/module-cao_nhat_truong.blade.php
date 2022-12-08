@@ -1,13 +1,13 @@
-<section class="wrap xl:w-4/5 xl:flex xl:justify-center mx-auto lg:flex-none">
-    <div class="title xl:w-2/5 md:w-[88%] md:mx-[auto]">
+<section class="wrap 2xl:flex xl:w-4/5 xl:flex-none xl:justify-center mx-auto">
+    <div class="title 2xl:w-2/5 2xl:mr-[90px] xl:w-full lg:w-3/4 lg:mx-[auto] md:w-3/4 md:mx-[auto]">
         <div class="Line-4"></div>
         <h2>
             The Encompass Platform Seamlessly Connects the Supply Chain,
             Allowing You to:
         </h2>
     </div>
-    <div class="info xl:w-3/5 xl:flex lg:flex lg:w-4/5 lg:mx-[auto] md:flex-none">
-        <div class="column1 mr-2.5 xl:w-1/2 lg:w-1/2 md:w-3/4 md:mx-[auto]">
+    <div class="info 2xl:w-3/5 xl:w-full xl:flex lg:flex-none lg:mx-[auto]">
+        <div class="column1 mr-2.5 xl:w-1/2 md:w-3/4 md:mx-[auto]">
             <div class="xl:w-4/5 ">
                 <h3>Drive Business Growth</h3>
                 <p class="">
@@ -27,7 +27,7 @@
                 </p>
             </div>
         </div>
-        <div class="column2 xl:w-1/2 lg:w-1/2 md:w-3/4 md:mx-[auto]">
+        <div class="column2 xl:w-1/2 md:w-3/4 md:mx-[auto]">
             <div class="xl:w-4/5">
                 <h3>Leverage Real-Time Data for Better Decision-Making</h3>
                 <p>
