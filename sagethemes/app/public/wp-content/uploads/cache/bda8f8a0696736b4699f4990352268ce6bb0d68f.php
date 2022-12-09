@@ -1,7 +1,7 @@
 <header id="header" class="module header w-full top-0 left-0 fixed z-200 down_lg:overflow-hidden">
     <div class="container">
         <nav class="row navbar items-center">
-            <div
+            <!-- <div
                 class="col w-full down_lg:flex down_lg:flex-wrap lg:w-1/5 header-mobile relative justify-between items-center">
                 <div class="lg:w-full relative">
                     <a id="header-logo" class="navbar-brand header-logo py-5 inline-block align-middle"
@@ -19,14 +19,14 @@
                         <span class="sr-only">Open Menu</span>
                     </button>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="col w-full lg:w-4/5 navbar-collapse main-menu flex flex-col justify-between" id="main-menu"
+            <!-- <div class="col w-full lg:w-4/5 navbar-collapse main-menu flex flex-col justify-between" id="main-menu"
                 data-module="menu">
                 
                 <?php echo App::getMainNav(); ?>
 
-            </div>
+            </div> -->
         </nav>
     </div>
 </header>
