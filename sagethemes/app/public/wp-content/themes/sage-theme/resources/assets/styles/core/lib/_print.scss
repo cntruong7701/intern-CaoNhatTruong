@@ -19,7 +19,7 @@ body {
   overflow-x: visible;
   overflow-y: visible;
   background: $white;
-  color: #000;
+  color: #fff;
 }
 
 #content,
@@ -89,6 +89,15 @@ html,
     }
     img {
       filter: invert(100%);
+    }
+  }
+  .nav{
+    ul{
+      li{
+        a{
+          color: #fff;
+        }
+      }
     }
   }
 }
@@ -258,6 +267,6 @@ h6 {
 .social,
 #modal,
 .hamburger-menu,
-.form-contact, {
+.form-contact {
   display: none;
 }
