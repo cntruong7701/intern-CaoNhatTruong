@@ -48,10 +48,24 @@ class App extends Controller
     public static function getBanner()
     {
         $banner = get_field('ns_header_banner', ACF_OPTION);
-        $url = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bg_Banner.png';
+        $Banner = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bg_Banner.png';
+        $Business = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/BusinessImg.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
+        $alt1 = ($banner && $banner['alt']) ? $banner['alt'] : 'business';
         $href = home_url();
-        return compact('url', 'alt', 'href');
+        return compact('Banner', 'Business', 'alt', 'alt1', 'href');
+    }
+
+    public static function getIcon()
+    {
+        $icon = get_field('ns_header_Icon', ACF_OPTION);
+        $icon1 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/icon1.svg';
+        $icon2 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/icon2.svg';
+        $icon3 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/icon3.svg';
+        $icon4 = ($icon && $icon['url']) ? $icon['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/icon4.svg';
+        $alt = ($icon && $icon['alt']) ? $icon['alt'] : 'icon';
+        $href = home_url();
+        return compact('icon1', 'icon2', 'icon3', 'icon4', 'alt', 'href');
     }
 
     public static function getBannerR()

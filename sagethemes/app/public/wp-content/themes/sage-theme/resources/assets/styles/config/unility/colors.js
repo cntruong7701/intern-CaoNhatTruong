@@ -18,6 +18,13 @@ const Colors = {
     100: '#1d4f91',
     200: '#1e5091'
   },
+  sky: {
+    800: '#202c40',
+    900: '#0c4a6e'
+  },
+  slate: {
+    100: '#f1f5f5'
+  },
   black: '#000',
   transparent: 'transparent'
 }

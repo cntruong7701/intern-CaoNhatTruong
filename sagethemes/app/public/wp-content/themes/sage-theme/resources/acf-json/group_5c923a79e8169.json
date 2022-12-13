@@ -51,6 +51,24 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_6397e1574e55c": {
+                    "key": "layout_6397e1574e55c",
+                    "name": "mod_enter",
+                    "label": "Enter",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63985a4e41888": {
+                    "key": "layout_63985a4e41888",
+                    "name": "connecting",
+                    "label": "Conneting",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -76,5 +94,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670515869
+    "modified": 1670928974
 }
