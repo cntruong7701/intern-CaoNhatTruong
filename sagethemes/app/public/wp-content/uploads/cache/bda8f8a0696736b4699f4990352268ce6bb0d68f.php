@@ -3,7 +3,7 @@
         <div>
             <div class="relative">
                 <a id="header-logo" class="navbar-brand header-logo py-5 inline-block align-middle"
-                    href="https://www.fruturaproduce.com">
+                    href="#">
                     <img src="<?php echo App::getLogo()['url']; ?>" alt="<?php echo App::getLogo()['url']; ?>" class="w-[226px] h-[38px]">
                     <!-- <img src="https://www.fruturaproduce.com/wp-content/uploads/2021/05/logo-white.svg" alt="Frutura"
                         class="transform-center-middle absolute z-0 down_lg:max-w-112 down_lg:left-32 hidden-print"> -->

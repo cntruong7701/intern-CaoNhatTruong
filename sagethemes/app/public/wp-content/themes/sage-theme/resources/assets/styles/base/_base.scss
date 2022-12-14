@@ -1,6 +1,6 @@
 @layer base {
   body {
-    @apply text-base text-black xl:text-lg;
+    @apply text-base text-black-100 xl:text-lg;
   }
   html {
     @apply m-0;
@@ -84,5 +84,5 @@
 }
 
 a:not(.btn):not(.no-underline) {
-  @apply text-brown-100 no-underline hover:no-underline;
+  @apply text-brown-100 hover:no-underline;
 }

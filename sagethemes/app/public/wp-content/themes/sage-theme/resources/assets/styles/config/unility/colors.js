@@ -16,7 +16,8 @@ const Colors = {
   },
   blue: {
     100: '#1d4f91',
-    200: '#1e5091'
+    200: '#1e5091',
+    300: '#B6CFD0'
   },
   sky: {
     800: '#202c40',
@@ -25,7 +26,11 @@ const Colors = {
   slate: {
     100: '#f1f5f5'
   },
-  black: '#000',
+  black: {
+    100: '#000',
+    200: '#1f2c40'
+  },
+  white: '#ffffff',
   transparent: 'transparent'
 }
 module.exports = {

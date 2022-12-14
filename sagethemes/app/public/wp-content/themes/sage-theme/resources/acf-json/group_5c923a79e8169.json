@@ -69,6 +69,24 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_63997947db458": {
+                    "key": "layout_63997947db458",
+                    "name": "mod_slick2",
+                    "label": "Slick2",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6399c19d4fa01": {
+                    "key": "layout_6399c19d4fa01",
+                    "name": "lorem_curae",
+                    "label": "Lorem Curae",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -94,5 +112,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1670928974
+    "modified": 1671020957
 }

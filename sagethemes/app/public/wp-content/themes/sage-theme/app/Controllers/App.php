@@ -40,9 +40,15 @@ class App extends Controller
     {
         $logo = get_field('ns_header_logo', ACF_OPTION);
         $url = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/logo-sagetheme.svg';
+        $aperity = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/aperity-logo.png';
+        $cba = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/cba-logo.png';
+        $provi = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/provi-logo.png';
+        $salsify = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/salsify-logo.png';
+        $script = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/script-logo.png';
+        $untappd = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/untappd-logo.png';
         $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
         $href = home_url();
-        return compact('url', 'alt', 'href');
+        return compact('url', 'aperity', 'cba', 'provi', 'salsify', 'script', 'untappd','alt', 'href');
     }
 
     public static function getBanner()
@@ -50,10 +56,12 @@ class App extends Controller
         $banner = get_field('ns_header_banner', ACF_OPTION);
         $Banner = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bg_Banner.png';
         $Business = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/BusinessImg.png';
+        $Hide = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bgHide.png';
+        $lorem = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/lorem.jpg';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $alt1 = ($banner && $banner['alt']) ? $banner['alt'] : 'business';
         $href = home_url();
-        return compact('Banner', 'Business', 'alt', 'alt1', 'href');
+        return compact('Banner', 'Business', 'Hide', 'lorem', 'alt', 'alt1', 'href');
     }
 
     public static function getIcon()

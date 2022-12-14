@@ -8,7 +8,7 @@
   <div id="wrapper" class="wrapper has-animation">
     <?php do_action('get_header') ?>
     <?php echo $__env->make('partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-    <main id="main-content">
+    <main id="main-content" class="bg-white">
       <?php echo $__env->yieldContent('content'); ?>
     </main>
     <?php if(App\display_sidebar()): ?>
