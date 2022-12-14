@@ -1,5 +1,5 @@
 <header id="header" class="module header w-full top-0 left-0 fixed z-200 border-b-1 down_lg:overflow-hidden" data-module="header">
-    <nav class="navbar w-full mx-[auto] justify-around items-center row bg-sky">
+    <nav class="navbar w-full mx-[auto] justify-around items-center row bg-sky-800">
         <div>
             <div class="relative">
                 <a id="header-logo" class="navbar-brand header-logo py-5 inline-block align-middle"
