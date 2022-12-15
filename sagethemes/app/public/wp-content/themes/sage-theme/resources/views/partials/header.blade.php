@@ -5,8 +5,6 @@
                 <a id="header-logo" class="navbar-brand header-logo py-5 inline-block align-middle"
                     href="#">
                     <img src="{!! App::getLogo()['url'] !!}" alt="{!! App::getLogo()['url'] !!}" class="w-[226px] h-[38px]">
-                    <!-- <img src="https://www.fruturaproduce.com/wp-content/uploads/2021/05/logo-white.svg" alt="Frutura"
-                        class="transform-center-middle absolute z-0 down_lg:max-w-112 down_lg:left-32 hidden-print"> -->
                 </a>
             </div>
             <div class="col-lg-4 block lg:hidden">
@@ -18,7 +16,7 @@
                         class="icon-bar block bg-white relative ml-auto w-16 h-1-5 transition-bg duration-300 mt-3"></span>
                     <span
                         class="icon-bar block bg-white relative ml-auto w-16 h-1-5 transition-bg duration-300 mt-3"></span>
-                    <span class="icomoon icon-close-menu d-none"></span>
+                    <span class="icomoon icon-menu d-none"></span>
                     <span class="sr-only">Menu</span>
                 </button>
             </div>
