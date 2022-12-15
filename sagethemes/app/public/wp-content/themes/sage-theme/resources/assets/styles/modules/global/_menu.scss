@@ -6,14 +6,14 @@ html.is-open-menu {
     @apply pr-5;
     .icon-bar {
       &:nth-child(1) {
-        @apply bg-yellow origin-top-left -top-1 left-1;
+        @apply bg-white origin-top-left -top-1 left-1;
         transform: rotate(45deg);
       }
       &:nth-child(2) {
         @apply opacity-0;
       }
       &:nth-child(3) {
-        @apply bg-yellow origin-top-left top-1;
+        @apply bg-white origin-top-left top-1;
         transform: rotate(-45deg);
       }
     }

@@ -46,9 +46,15 @@ class App extends Controller
         $salsify = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/salsify-logo.png';
         $script = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/script-logo.png';
         $untappd = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/untappd-logo.png';
+        $advance = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/logofooter/advance.png';
+        $barringer = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/logofooter/barringer.png';
+        $eagle = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/logofooter/eagle_rock.png';
+        $firestone = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/logofooter/firestone_logo_small1.png';
+        $towns = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/logofooter/Towns.png';
+        $whistle = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/logofooter/WhistlePig_Logo_Primary.png';
         $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
         $href = home_url();
-        return compact('url', 'aperity', 'cba', 'provi', 'salsify', 'script', 'untappd','alt', 'href');
+        return compact('url', 'aperity', 'cba', 'provi', 'salsify', 'script', 'untappd', 'advance', 'barringer', 'eagle', 'firestone', 'towns', 'whistle','alt', 'href');
     }
 
     public static function getBanner()
@@ -58,10 +64,11 @@ class App extends Controller
         $Business = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/BusinessImg.png';
         $Hide = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bgHide.png';
         $lorem = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/lorem.jpg';
+        $bgFooter = ($banner && $banner['url']) ? $banner['url'] : TEMPLATE_ASSETS_URL . '/images/sage-theme/bgFooter.png';
         $alt = ($banner && $banner['alt']) ? $banner['alt'] : 'banner';
         $alt1 = ($banner && $banner['alt']) ? $banner['alt'] : 'business';
         $href = home_url();
-        return compact('Banner', 'Business', 'Hide', 'lorem', 'alt', 'alt1', 'href');
+        return compact('Banner', 'Business', 'Hide', 'lorem', 'bgFooter', 'alt', 'alt1', 'href');
     }
 
     public static function getIcon()
@@ -174,7 +181,7 @@ class App extends Controller
                 ECHO_TEXT => false,
             ));
         } else {
-            return '';
+            return 'text';
         }
     }
 }
