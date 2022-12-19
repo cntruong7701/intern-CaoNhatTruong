@@ -2,7 +2,7 @@
     <div class="bg-img w-full relative ">
         <img class="w-full lg:h-[769px]" src="<?php echo App::getBanner()['Banner']; ?>" alt="<?php echo App::getBanner()['alt']; ?>">
     </div>
-    <div class="flex absolute xl:top-80 xl:right-0 3xl:left-149 2xl:left-[12%] xl:left-37 xl:flex-row xl:text-left lg:flex-col lg:text-center lg:top-54">
+    <div class="flex absolute xl:top-80 xl:right-0 3xl:left-[13%] 2xl:left-[10%] xl:left-37 xl:flex-row xl:text-left lg:flex-col lg:text-center lg:top-54">
         <div class=" flex flex-col text-white max-w-[500px] xl:mx-0 xl:items-start lg:mx-[auto] lg:items-center">
             <h1>Unlock the Power of Connection</h1>
             <p>Connect & Grow Your Business with the Power of the Encompass Platform</p>

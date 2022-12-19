@@ -1,64 +1,72 @@
-<section class="max-w-[1114px] mx-[auto]">
-    <div class="w-full ">
-        <div class="max-w-[550px] mx-[auto] text-center">
-            <h2>
-                Enterprise ERP Solutions for Beverage & Food Industry
-            </h2>
-        </div>
-        <div class="max-w-[888px] mx-[auto] text-center">
+
+<section class="mod-threecol">
+    <div class="container flex flex-col items-center justify-center max-w-[1104px]">
+        <div class="flex flex-col items-center text-center max-w-[85%] mt-16 mb-16">
+            <h2>Enterprise ERP Solutions for Beverage & Food Industry</h2>
             <p>
-                At Encompass, we’re revolutionizing the beverage and food supply chain like no other ERP solution has
+                At Encompass, we’re revolutionizing the beverage and food supply chain like no other ERP solution
+                has
                 before. By digitally connecting manufacturers, distributors, and retailers, our ERP SaaS solutions
-                streamline operations, simplify decision making, and equip businesses for success in a fast-changing and
+                streamline operations, simplify decision making, and equip businesses for success in a fast-changing
+                and
                 unpredictable market.
             </p>
         </div>
-    </div>
-    <div class="flex max-w-3/4 justify-around">
-        <img src="<?php echo App::getIcon()['icon1']; ?>" class="ml-25" alt="<?php echo App::getIcon()['alt']; ?>">
-        <img src="<?php echo App::getIcon()['icon2']; ?>" class="" alt="<?php echo App::getIcon()['alt']; ?>">
-        <img src="<?php echo App::getIcon()['icon3']; ?>" class="" alt="<?php echo App::getIcon()['alt']; ?>">
-        <img src="<?php echo App::getIcon()['icon2']; ?>" class="" alt="<?php echo App::getIcon()['alt']; ?>">
-        <img src="<?php echo App::getIcon()['icon4']; ?>" class="mr-25" alt="<?php echo App::getIcon()['alt']; ?>">
-    </div>
-    <div class="flex justify-around">
-        <div class="text-center flex-col mr-56">
-            <h3>Solutions for Manufacturers</h3>
-            <p>
-                Over 400 breweries, distilleries, and cideries use Encompass' Orchestra Cloud to work from a single
-                source of truth for operations, data, and decision making. Streamlining the business in this way
-                provides benefits that extend to tier-to-tier automation, process transparency, and predictive
-                forecasting.
-            </p>
-            <a href="">
-                <span class="text-base font-bold">EXPLORE ORCHESTRA</span>
-                <span class="icomoon icon-chevron-right w-3"></span>
-            </a>
-        </div>
-        <div class="text-center flex-col mx-40">
-            <h3>Solutions for Distributors</h3>
-            <p>
-                Encompass Cloud powered by the Encompass Platform is specifically built for the beverage and food
-                distribution industry. Encompass Cloud integrates warehouse management, sales execution, logistics,
-                warehouse automation, and retailer ordering tools in a way that makes the overall business function
-                smoothly, predictably, efficiently.
-            </p>
-            <a href="">
-                <span class="text-base font-bold">EXPLORE ENCOMPASS CLOUD</span>
-                <span class="icomoon icon-chevron-right w-3"></span>
-            </a>
-        </div>
-        <div class="text-center flex-col ml-56">
-            <h3>Solutions for Retailers</h3>
-            <p>
-                Our Retail solutions are advancing the way beverage retailers do business by optimizing commercial
-                interactions between distributors, retailers, and consumers. This is done by consolidating online
-                ordering and retail eCommerce websites with advanced product discovery and delivery applications.
-            </p>
-            <a href="">
-                <span class="text-base font-bold">EXPLORE RETAIL SOLUTIONS</span>
-                <span class="icomoon icon-chevron-right w-3"></span>
-            </a>
+        <div class="xl:flex items-start min-h-[479px]">
+            <div class="info-col self">
+                <div>
+                    <img class="info-icon w-40 h-40" src="<?php echo App::getIcon()['icon1']; ?>"
+                        alt="<?php echo App::getIcon()['alt']; ?>">
+                </div>
+                <h3>Solutions for Manufacturers</h3>
+                <p>Integrate all aspects of your operations with a single source of truth for planning, purchasing,
+                    production, QC, inventory, sales, accounting, finance, and business intelligence.</p>
+                <div class="mt-auto">
+                    <a href="">
+                        <span class="text-base font-bold">EXPLORE ORCHESTRA</span>
+                        <span class="icomoon icon-chevron-right w-3"></span>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img class="dot-arrow xl:rotate-0 md:rotate-90 xl:my-25 md:my-83 md:mx-auto" src="<?php echo App::getIcon()['icon2']; ?>"
+                    alt="<?php echo App::getIcon()['alt']; ?>">
+            </div>
+            <div class="info-col self">
+                <div>
+                    <img class="info-icon w-40 h-40" src="<?php echo App::getIcon()['icon3']; ?>"
+                        alt="<?php echo App::getIcon()['alt']; ?>">
+                </div>
+                <h3>Solutions for Distributors</h3>
+                <p>Increase operational efficiency and manage growth effectively with products like warehouse
+                    management, sales execution, logistics, warehouse automation, retailer ordering, business
+                    intelligence, and more.</p>
+                <div class="mt-auto">
+                    <a href="">
+                        <span class="text-base font-bold">EXPLORE ENCOMPASS CLOUD</span>
+                        <span class="icomoon icon-chevron-right w-3"></span>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img class="dot-arrow xl:rotate-0 md:rotate-90 xl:my-25 md:my-83 md:mx-auto" src="<?php echo App::getIcon()['icon2']; ?>"
+                    alt="<?php echo App::getIcon()['alt']; ?>">
+            </div>
+            <div class="info-col self">
+                <div>
+                    <img class="info-icon w-40 h-40" src="<?php echo App::getIcon()['icon4']; ?>"
+                        alt="<?php echo App::getIcon()['alt']; ?>">
+                </div>
+                <h3>Solutions for Retailers</h3>
+                <p>Run a more efficient business by optimizing interactions with your distributors and customers with
+                    solutions like online ordering, retail eCommerce websites, delivery applications, and more.</p>
+                <div class="mt-auto">
+                    <a href="">
+                        <span class="text-base font-bold">EXPLORE RETAIL SOLUTIONS</span>
+                        <span class="icomoon icon-chevron-right w-3"></span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>

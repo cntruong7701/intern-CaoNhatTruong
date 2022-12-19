@@ -102,4 +102,10 @@
    }
 }
 
+// function Menu(e){
+//   let list = document.querySelector('ul');
+
+//   e.menu === 'menu' ? e.menu = 'close' : e.name = "menu"
+// }
+
  new Menu().init()
