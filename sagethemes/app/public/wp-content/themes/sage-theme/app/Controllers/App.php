@@ -14,7 +14,7 @@ class App extends Controller
 
     public static function title()
     {
-        $title = "";
+        $title = "The Encompass Platform Seamlessly Connects the Supply Chain, Allowing You to:";
         if (is_home()) {
             if ($home = get_option('page_for_posts', true)) {
                 return get_the_title($home);
@@ -184,4 +184,10 @@ class App extends Controller
             return 'text';
         }
     }
+
+    // public static function getTitle()
+    // {
+
+    //     return "Module";
+    // }
 }

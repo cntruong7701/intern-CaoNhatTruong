@@ -133,6 +133,20 @@ module.exports = {
             maxWidth: '1394px'
           }
         }
+      }),
+      addComponents({
+        '.cus-container': {
+          maxWidth: '100%',
+          '@screen lg': {
+            maxWidth: '1016px'
+          },
+          '@screen xl': {
+            maxWidth: '100%'
+          },
+          '@screen 2xl': {
+            maxWidth: '100%'
+          }
+        }
       })
     }
   ]
